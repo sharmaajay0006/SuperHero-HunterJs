@@ -1,0 +1,25 @@
+/* Set the background image of the body with full width and height and fixed attachment to keep the image in place. */
+body {
+  background-image: url("/assesst/marvelbg1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Style the card elements with a border radius of 5px, white background color and specified width and height. */
+.card {
+  border-radius: 5px;
+  height: 60px;
+  background-color: white;
+  width: 650px;
+}
+/* Set the image to have 100% height and width with border radius of 5px. */
+.img-fluid {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+/* Set the color of the message element to red. */
+#message {
+  color: red;
+}

@@ -1,0 +1,50 @@
+<!-- This is an HTML file for displaying a list of favourite items. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite List</title>
+  </head>
+
+  <!-- Link to CSS and external libraries. -->
+  <link rel="stylesheet" href="css/favourite.css" />
+  <link
+    rel="stylesheet"
+    href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <body>
+
+      <!-- Create a navbar with a title and a button to go back to the home page. -->
+      <nav class="fixed-top navbar" style="background-color: #2b2424">
+        <!-- Left-aligned link to go back to the home page -->
+        <div class="d-flex mx-5">
+          <span class="">
+            <a class="nav-link active text-white" href="index.html">Back To Home</a>
+          </span>
+        </div>
+        <!-- Center-aligned title of the page -->
+        <span class="text-center me-5">
+          <b style="color: blueviolet">Favourite List</b>
+        </span>
+      </nav>
+      
+
+    <!-- Create a container for the favourite items to be displayed in. -->
+    <div class="container">
+      <div class="row d-flex text-white mt-5" id="favimages"></div>
+    </div>
+    
+    <!-- Import the JavaScript file. -->
+    <script src="favourite.js"></script>
+  </body>
+</html>
