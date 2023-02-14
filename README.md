@@ -11,4 +11,4 @@ The application also allows users to save their favorite superheroes to a list u
 
 Overall, SuperHero HunterJs is a fun and interactive web application that allows users to explore the world of superheroes using modern web development technologies.
 
-                                   I hope you enjoy using the superHeroes HunterJs Web application!🌻
+                          I hope you enjoy using the superHeroes HunterJs Web application!🌻
